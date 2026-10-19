@@ -1,0 +1,21 @@
+MEU TREINO — PWA instalável
+
+ARQUIVOS
+- index.html: aplicativo original adaptado para PWA
+- manifest.webmanifest: nome, ícones e configuração de instalação
+- sw.js: cache para abrir offline
+- icons/: ícones do aplicativo
+
+COMO INSTALAR NO ANDROID
+1. Publique todos os arquivos desta pasta em um site com HTTPS (por exemplo, GitHub Pages ou Netlify). Não renomeie nem separe os arquivos.
+2. Abra o endereço publicado no Chrome do Android.
+3. No menu ⋮, escolha “Instalar app” ou “Adicionar à tela inicial”.
+4. Abra pelo ícone instalado. Depois da primeira carga online, o app pode abrir offline.
+
+BACKUP
+Use “Backup dos dados” dentro do app para exportar um arquivo JSON. Guarde-o no Drive ou em outro local. Para recuperar, abra o app e importe o arquivo. A importação substitui os dados atuais deste aparelho.
+
+IMPORTANTE
+- O PWA precisa ser servido por HTTPS (ou localhost durante desenvolvimento); abrir index.html diretamente como arquivo não ativa instalação/offline.
+- Os dados ficam no armazenamento local do navegador/aplicativo. Limpar os dados do navegador ou desinstalar pode apagá-los; exporte backups regularmente.
+- O backup exportado inclui as imagens personalizadas e pode ficar relativamente grande.
